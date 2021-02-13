@@ -154,8 +154,9 @@ foreach ($posts as $post)
     //$post->save();
 }*/
 
-$post = \Hillel\model\Post::find(6);
-$post->delete();
+
+$cat = \Hillel\model\Category::find(2);
+$cat->delete();
 
 
 
